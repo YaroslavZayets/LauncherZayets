@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LaunchZayets</string>
+    <string name="buttonCall">CALL</string>
+    <string name="buttonAppsList"> MY APPS</string>
+    <string name="buttonMessage">MESS</string>
+    <string name="title_activity_apps">AppsActivity</string>
+</resources>
