@@ -7,9 +7,15 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Поиск..."
+        android:hint="@string/search"
         android:inputType="textVisiblePassword"
         android:id="@+id/search"/>
+
+    <Button
+        android:text="@string/button_apps_for_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/okButton" />
 
     <ListView
         android:id="@+id/appsList"

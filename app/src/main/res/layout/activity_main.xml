@@ -10,13 +10,14 @@
     tools:context="com.example.impression.launchzayets.MainActivity">
 
 
-    <GridView
-        android:id="@+id/gridView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:horizontalSpacing="5dp"
-        android:numColumns="3"
-        android:verticalSpacing="5dp"></GridView>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="4"
+        android:id="@+id/gridLayout">
+
+    </GridLayout>
 
     <LinearLayout
         android:layout_width="match_parent"

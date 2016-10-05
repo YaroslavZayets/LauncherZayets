@@ -4,4 +4,7 @@
     <string name="buttonAppsList"> MY APPS</string>
     <string name="buttonMessage">MESS</string>
     <string name="title_activity_apps">AppsActivity</string>
+    <string name="search">Поиск...</string>
+    <string name="button_apps_for_main">Поставить на главную</string>
+
 </resources>
