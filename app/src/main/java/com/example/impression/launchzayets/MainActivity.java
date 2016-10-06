@@ -113,9 +113,14 @@ public class MainActivity extends ApssListActivity {
         }
 
 
-
     }
 
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        gridLayout.removeAllViews();
+    }
 
     public void showApps (AppDetail app){
 
